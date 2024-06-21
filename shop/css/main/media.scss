@@ -1,0 +1,319 @@
+/* Медиазапрос для мобильных устройств
+@media screen and (max-width: 768px) {
+    .main_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+        background-color: white;
+        border-bottom: 1px solid rgb(238, 167, 0);
+        z-index: 1;
+    }
+
+    .main_menu ul {
+        flex-direction: column; 
+        padding: 0; 
+    }
+
+
+    .main_menu nav ul li ul li ul{
+        display: block;
+        left: 0px;
+    
+    }
+
+    .main_menu li {
+        width: 100%; 
+  
+        left: -50px;
+    }
+
+    .menu_points {
+        display: none; 
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: white;
+        border: 1px solid rgba(200, 200, 200, 0.5);
+        z-index: 20;
+    }
+
+    .main_menu li:hover .menu_points {
+        display: block; 
+    }
+
+    .search-box {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .main_menu, .medium_menu, .top_menu, .box-price, .box-image {
+        display: none !important;
+    }
+    .main {
+        margin-top: 80%;
+        margin-left: 20px;
+        height: 600px;
+    }
+    .sale-description {
+        font-size: 24px !important;
+    }
+    .sale-title {
+        font-size: 32px !important;
+        white-space: nowrap;
+
+    }
+    .advantages {
+        height: 350px;
+        margin-top: -50px;
+    }
+    .services {
+        display: block;
+    }
+    .services_col:not(:first-child) {
+        margin-top: 20px;
+    }
+    .services_col {
+        margin-left: 20px;
+    }
+    .services_img2 {
+        width: 72px;
+        height: 72px;
+        margin-top: 8px;
+        margin-left: -8px;
+    }
+
+    .services_img, .services_img3 {
+        margin-top: 10px;
+    }
+    .services_about {
+        margin-top: 15px;
+    }
+    .arrow-btn{
+        display: flex;
+        align-items: center;
+        width: 30px;
+        height: 50px;
+        margin-top: 200px;
+        background-color: transparent;
+        border: 0px;
+    }
+    .arrow-btn:nth-child(1){
+        transform: rotate(90deg);
+    }
+
+    .arrow-btn:last-child{
+        transform: rotate(-90deg);
+        margin-left: -20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        margin-left: 20px;
+    }
+
+    .grid-item-hit {
+
+        max-width: 300px; /* Максимальная ширина для мобильной версии */
+        margin: 0 auto; /* Центрируем карточку по горизонтали */
+    }
+    
+    .bg-white {
+        width: 250px;
+        height: 400px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .chip {
+        text-align: center;
+    }
+    
+    .grid-title, .grid-price, .grid-btn {
+        text-align: center;
+    }
+    
+    .grid-btn {
+        display: block;
+        margin-top: 10px;
+        background-color: white;
+        color: rgb(238, 167, 0);
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .grid-btn:hover{
+        background-color:rgb(238, 167, 0);
+    }
+    
+    .weight{
+        width: 170px;
+        margin-top: -20px;
+    }
+
+    .camp{
+        width: 200px;
+        margin-right: 30px;
+    }
+    .explain{
+        margin-top: -45px !important;
+    }
+    .grey-bg{
+        height: 1420px;
+
+    }
+    .information{
+        display: block;
+        margin-left: 20px;
+    }
+    
+    .col-comment-text{
+        width: 340px;
+
+    }
+
+    .col-comment-person{
+        margin-top: 5px;
+    }
+
+    .col-img{
+        width: 150px;
+    }
+
+    .col:nth-child(3){
+        margin-top: 105px;
+    }
+
+    .col:nth-child(2){
+        margin-top: 40px;
+    }
+
+    .brand-item-col:last-child{
+        display: none;
+    }
+
+    .brand-img{
+        width: 145px;
+        height: 145px;
+    }
+
+    .comment{
+        margin-bottom: 485px !important;
+    }
+
+    .news {
+        margin-bottom: 920px !important;
+    }
+
+    .brands {
+        margin-bottom: -10px;
+    }
+    .s-about{
+        height: 750px;
+    }
+    .s-about .container {
+        display: block;
+    }
+
+
+    .container.about{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .about-tabs {
+        flex-direction: column;
+        
+    }
+    
+    .tabs-navigation.about-navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -100px !important;
+    }
+    
+    .about-navigation__item {
+        width: 100% !important;
+        height: 55px; 
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .tab {
+        display: none;
+    }
+    
+    .tab--active {
+        display: block;
+    }
+
+    .tabs__body {
+        order: 2;
+    }
+      
+    .about-navigation {
+        order: 1;
+    }
+
+    .tabs-navigation.about-navigation {
+        /* width: 400px !important; */
+        text-align: center;
+        padding: 10px; /* Добавьте отступы по вашему усмотрению */
+    }
+    .text{
+        max-width: 340px;
+        text-align: justify;
+
+    }
+    .options-item:nth-child(2), .options-item-last{
+        display: none;
+    }
+    
+    .options {
+        margin-left: 20px;
+    }
+
+    .ball_bg-image {
+        margin-bottom: 0px;
+        padding-top: 0px !important;
+        width: 200px;
+    }
+
+    .man{
+        order: 4;
+        margin-top: 100px;
+        margin-left: 190px;
+        transform: scaleX(-1);
+    }
+    
+    .network{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .header, .arrow-btn, .man {
+        display: none;
+    }
+    
+}
+  

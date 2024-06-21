@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Fonts */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  background-color: rgb(222, 222, 222);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+li a:hover {
+  background-color: white;
+  color: rgb(238, 167, 0);
+}
+
+.logout {
+  font-weight: 600;
+  background-color: transparent; /* Сделать фон кнопки прозрачным */
+  border: none; /* Убрать границу кнопки */
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 0px;
+}
+
+.logout:hover {
+  color: rgb(238, 167, 0);
+}/*# sourceMappingURL=home.css.map */

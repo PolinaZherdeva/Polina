@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.back{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.back:hover{
+    color: rgb(238, 167, 0);
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрируем по вертикали */
+    margin: 0 auto; /* Для центрирования контейнера по горизонтали */
+    height: 100vh; /* Для центрирования по вертикали на всю высоту экрана */
+}
+
+
+form{
+    padding: 20px;
+    padding-bottom: 45px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+.notice_error {
+    font-size: 14px; /* Размер текста */
+    color: rgb(226, 15, 15);
+    //background-color: rgba(226, 15, 15, 0.1);
+    white-space: nowrap;
+    background-color: rgba(226, 15, 15, 0.1);
+    //width: 800px;
+    //height: 20%;
+    //margin-bottom: 200px;
+}
+
+.login label,
+.login input
+{
+    display: block;
+    margin-bottom: 10px; /* добавляем отступ между элементами */
+}
+
+.text {
+    //padding-right: 200px; /* Устанавливаем правый внутренний отступ для элемента <span> с классом "email" */
+    font-size: 16px;
+}
+
+
+input {
+    width: 93%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+
+}
+
+input:focus{
+    border: 1px solid rgb(238, 167, 0);
+}
+
+
+input[aria-invalid="true"] {
+    border: 1px solid rgb(226, 15, 15);
+    margin-bottom: 0px;
+}
+
+.error-message{
+    font-size: 12px;
+    color: rgb(226, 15, 15);
+}
+
+
+button{
+    width: 99%;
+    height: 45px;
+    margin-top: 35px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(238, 167, 0);
+}
+
+p{
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-btn{
+    text-decoration: none;
+    color: rgb(238, 167, 0);
+}
+
+.login-btn:hover{
+    text-decoration: underline;
+}
+
+.email{
+    margin-bottom: 15px;
+    margin-top: 6px
+}
+.password{
+    margin-bottom: 15px;
+}
+
